@@ -5,6 +5,7 @@ import PyPDF2 as pdf
 from PIL import Image
 from dotenv import load_dotenv
 load_dotenv()
+GOOGLE_KEY = st.secrets['GOOGLE_ACCESS_TOKEN']
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 print("We are good to go")
 def get_gemini_response(input_prompt,input):
