@@ -1,5 +1,13 @@
 # ATS-Resume
-Our web application is built using Streamlit and leverages API requests from the Gemini Pro model to provide a powerful and efficient Applicant Tracking System (ATS) for your recruitment needs.  We integrate with the Gemini Pro model, which is a state-of-the-art Language Model (LLM) trained specifically for handling recruitment tasks. This model is capable of understanding job descriptions, resumes,and candidate profiles with high accuracy and efficiency.
+An intelligent recruitment platform that leverages Google's Gemini Pro LLM to streamline candidate evaluation and resume screening. Built with Streamlit for a seamless user experience, this ATS automates the matching of candidates to job requirements with high accuracy.
+
+## Features
+- **AI-Driven Resume Analysis:** Powered by Gemini Pro for intelligent resume parsing and evaluation
+- **Job Description Matching:** Automatically scores candidate fit based on job requirements
+- **Candidate Profile Assessment:** Comprehensive evaluation of skills, experience, and qualifications
+- **Real-time Processing:** Instant analysis through Gemini Pro API integration
+- **User-Friendly Interface:** Clean and intuitive Streamlit-based web application
+  
 ## How to run
 Clone the repository to your local machine:
 ```
@@ -13,10 +21,11 @@ Run the Streamlit app:
 ```
 streamlit run app.py
 ```
-## Technologies Used
-- ***Streamlit***: Front-end development framework for building interactive web applications.
-- ***Gemini Pro Model***: Machine learning model for candidate ranking and scoring.
-- ***Python***: Programming language used for backend logic and data processing
+## Tech Stack
+- **Frontend:** Streamlit
+- **Backend:** Python
+- **AI Model:** Google Gemini Pro (LLM)
+- **Integration:** Gemini API for real-time inference
 
 ## Demo
 
